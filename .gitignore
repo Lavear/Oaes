@@ -1,0 +1,11 @@
+# Simulation outputs
+sim/*
+*.vcd
+*.wlf
+
+# Editors
+*.swp
+*.bak
+
+# OS files
+.DS_Store
