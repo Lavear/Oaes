@@ -1,0 +1,209 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/ismail/Documents/AES
+vaddroundkey
+Z1 !s110 1766920080
+!i10b 1
+!s100 m?EbYKoH<d=DmXZNL]aDm2
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I>V8@Q?nemZ:<iWG3^46=40
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1766919595
+8rtl/addroundkey.v
+Frtl/addroundkey.v
+!i122 1
+L0 1 6
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1766920080.000000
+!s107 rtl/subbytes.v|rtl/state_reg.v|rtl/shiftrows.v|rtl/mixcolumns.v|rtl/key_expansion.v|rtl/aes_top.v|rtl/aes_datapath.v|rtl/aes_controller.v|rtl/addroundkey.v|
+Z6 !s90 -reportprogress|300|rtl/addroundkey.v|rtl/aes_controller.v|rtl/aes_datapath.v|rtl/aes_top.v|rtl/key_expansion.v|rtl/mixcolumns.v|rtl/shiftrows.v|rtl/state_reg.v|rtl/subbytes.v|
+!i113 1
+Z7 tCvgOpt 0
+vaes_controller
+R1
+!i10b 1
+!s100 IF7fH;S[h90RF<k72gS]W0
+R2
+ICD;DcV2g?ef4FH0gBeNB32
+R3
+R0
+w1766919200
+8rtl/aes_controller.v
+Frtl/aes_controller.v
+!i122 1
+Z8 L0 1 10
+R4
+r1
+!s85 0
+31
+R5
+Z9 !s107 rtl/subbytes.v|rtl/state_reg.v|rtl/shiftrows.v|rtl/mixcolumns.v|rtl/key_expansion.v|rtl/aes_top.v|rtl/aes_datapath.v|rtl/aes_controller.v|rtl/addroundkey.v|
+R6
+!i113 1
+R7
+vaes_datapath
+R1
+!i10b 1
+!s100 _TE86ihNf2Qm[KmRM0=>^2
+R2
+I2?FhUmhT`XA;aWAeaLS2W3
+R3
+R0
+w1766919276
+8rtl/aes_datapath.v
+Frtl/aes_datapath.v
+!i122 1
+Z10 L0 1 9
+R4
+r1
+!s85 0
+31
+R5
+R9
+R6
+!i113 1
+R7
+vaes_top
+R1
+!i10b 1
+!s100 6aiDCkJEJT]4ODi_RlGJk0
+R2
+I=4HRkF@73XdBD7]TCc@=]2
+R3
+R0
+w1766918750
+8rtl/aes_top.v
+Frtl/aes_top.v
+!i122 1
+R8
+R4
+r1
+!s85 0
+31
+R5
+R9
+R6
+!i113 1
+R7
+vkey_expansion
+R1
+!i10b 1
+!s100 92G;nbKWMhNRIkiGzUR]82
+R2
+I3QHBhRnCJf4:E;8<QE0TQ1
+R3
+R0
+w1766920066
+8rtl/key_expansion.v
+Frtl/key_expansion.v
+!i122 1
+R10
+R4
+r1
+!s85 0
+31
+R5
+R9
+R6
+!i113 1
+R7
+vmixcolumns
+R1
+!i10b 1
+!s100 C9SH_7jWzdDk@I2=20?fE0
+R2
+I`7DiATQYR5Q@SYgLDYdKC0
+R3
+R0
+w1766919651
+8rtl/mixcolumns.v
+Frtl/mixcolumns.v
+!i122 1
+Z11 L0 1 5
+R4
+r1
+!s85 0
+31
+R5
+R9
+R6
+!i113 1
+R7
+vshiftrows
+R1
+!i10b 1
+!s100 BHaF8U:US]7Vc<1U<G8VB3
+R2
+I5d7PEKQm6gJ0dXjQFa6R01
+R3
+R0
+w1766919508
+8rtl/shiftrows.v
+Frtl/shiftrows.v
+!i122 1
+R11
+R4
+r1
+!s85 0
+31
+R5
+R9
+R6
+!i113 1
+R7
+vstate_reg
+R1
+!i10b 1
+!s100 0OFUbemSGG0@nVWiP;QoF0
+R2
+I]ZZ2L46[LbbUbz_nTzni^3
+R3
+R0
+w1766919358
+8rtl/state_reg.v
+Frtl/state_reg.v
+!i122 1
+L0 1 8
+R4
+r1
+!s85 0
+31
+R5
+R9
+R6
+!i113 1
+R7
+vsubbytes
+R1
+!i10b 1
+!s100 o:[1zR7?[SISI3Xh7MGnB0
+R2
+IjG`hFU=mU:dRK1C_>@9iZ3
+R3
+R0
+w1766919443
+8rtl/subbytes.v
+Frtl/subbytes.v
+!i122 1
+R11
+R4
+r1
+!s85 0
+31
+R5
+R9
+R6
+!i113 1
+R7
