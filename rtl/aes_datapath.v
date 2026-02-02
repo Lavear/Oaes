@@ -29,7 +29,7 @@ assign addroundkey_in = final_round ? shiftrows_out : mixcolumns_out;
 
 addroundkey u_addroundkey(
     .in_state(addroundkey_in),
-    .roundkey(round_key),
+    .round_key(round_key),
     .out_state(state_out)
 );
 

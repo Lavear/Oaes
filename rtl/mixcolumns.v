@@ -20,9 +20,9 @@ generate
     wire [7:0]s3 = in_state[103 - i*32 -: 8];
 
     wire [7:0]m0 = xtime(s0) ^ (xtime(s1)^s1) ^ s2 ^ s3;
-    wire [7:0] m1 = s0 ^ xtime(s1) ^ (xtime(s2) ^ s2) ^ s3;
-    wire [7:0] m2 = s0 ^ s1 ^ xtime(s2) ^ (xtime(s3) ^ s3);
-    wire [7:0] m3 = (xtime(s0) ^ s0) ^ s1 ^ s2 ^ xtime(s3);
+    wire [7:0]m1 = s0 ^ xtime(s1) ^ (xtime(s2) ^ s2) ^ s3;
+    wire [7:0]m2 = s0 ^ s1 ^ xtime(s2) ^ (xtime(s3) ^ s3);
+    wire [7:0]m3 = (xtime(s0) ^ s0) ^ s1 ^ s2 ^ xtime(s3);
 
     assign out_state[127 - i*32 -: 8] = m0;
     assign out_state[119 - i*32 -: 8] = m1;

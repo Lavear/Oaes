@@ -10,200 +10,244 @@ z2
 cModel Technology
 Z0 d/home/ismail/Documents/AES
 vaddroundkey
-Z1 !s110 1766920080
+Z1 !s110 1770058459
 !i10b 1
-!s100 m?EbYKoH<d=DmXZNL]aDm2
+!s100 CXlRAEc<F2@X5i>JJfFO53
 Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
-I>V8@Q?nemZ:<iWG3^46=40
+I2LkfWOijZ2[PiaK^lPikS0
 Z3 VDg1SIo80bB@j0V0VzS_@n1
 R0
-w1766919595
+w1767115342
 8rtl/addroundkey.v
 Frtl/addroundkey.v
-!i122 1
-L0 1 6
+!i122 30
+L0 1 7
 Z4 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z5 !s108 1766920080.000000
-!s107 rtl/subbytes.v|rtl/state_reg.v|rtl/shiftrows.v|rtl/mixcolumns.v|rtl/key_expansion.v|rtl/aes_top.v|rtl/aes_datapath.v|rtl/aes_controller.v|rtl/addroundkey.v|
-Z6 !s90 -reportprogress|300|rtl/addroundkey.v|rtl/aes_controller.v|rtl/aes_datapath.v|rtl/aes_top.v|rtl/key_expansion.v|rtl/mixcolumns.v|rtl/shiftrows.v|rtl/state_reg.v|rtl/subbytes.v|
+Z5 !s108 1770058459.000000
+Z6 !s107 rtl/subbytes.v|rtl/state_reg.v|rtl/shiftrows.v|rtl/mixcolumns.v|rtl/key_expansion.v|rtl/aes_top.v|rtl/aes_datapath.v|rtl/aes_controller.v|rtl/addroundkey.v|
+Z7 !s90 -reportprogress|300|rtl/addroundkey.v|rtl/aes_controller.v|rtl/aes_datapath.v|rtl/aes_top.v|rtl/key_expansion.v|rtl/mixcolumns.v|rtl/shiftrows.v|rtl/state_reg.v|rtl/subbytes.v|
 !i113 1
-Z7 tCvgOpt 0
+Z8 tCvgOpt 0
 vaes_controller
 R1
 !i10b 1
-!s100 IF7fH;S[h90RF<k72gS]W0
+!s100 VQAYZYT[aDNobR`<JLm5[2
 R2
-ICD;DcV2g?ef4FH0gBeNB32
+INci20=LnT=7??:O`X1`2k0
 R3
 R0
-w1766919200
+w1770058441
 8rtl/aes_controller.v
 Frtl/aes_controller.v
-!i122 1
-Z8 L0 1 10
+!i122 30
+L0 7 77
 R4
 r1
 !s85 0
 31
 R5
-Z9 !s107 rtl/subbytes.v|rtl/state_reg.v|rtl/shiftrows.v|rtl/mixcolumns.v|rtl/key_expansion.v|rtl/aes_top.v|rtl/aes_datapath.v|rtl/aes_controller.v|rtl/addroundkey.v|
 R6
-!i113 1
 R7
+!i113 1
+R8
 vaes_datapath
 R1
 !i10b 1
-!s100 _TE86ihNf2Qm[KmRM0=>^2
+!s100 h908Q6hkSFY_BF<z[O1So3
 R2
-I2?FhUmhT`XA;aWAeaLS2W3
+If0L;L>^2Vj9@B`R9R2OfI3
 R3
 R0
-w1766919276
+w1770056112
 8rtl/aes_datapath.v
 Frtl/aes_datapath.v
-!i122 1
-Z10 L0 1 9
+!i122 30
+L0 1 36
 R4
 r1
 !s85 0
 31
 R5
-R9
 R6
-!i113 1
 R7
+!i113 1
+R8
+vaes_sbox
+R1
+!i10b 1
+!s100 XFPQ6@OneeGk9UOXf5LX00
+R2
+IRcWoKC?5XIafME>QJggL23
+R3
+R0
+Z9 w1767117062
+Z10 8rtl/subbytes.v
+Z11 Frtl/subbytes.v
+!i122 30
+L0 1 155
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
 vaes_top
 R1
 !i10b 1
-!s100 6aiDCkJEJT]4ODi_RlGJk0
+!s100 Men5U6XzBMM`e<EXIZFNX3
 R2
-I=4HRkF@73XdBD7]TCc@=]2
+ISD[N5Wa<`LP07E=;3J5hn1
 R3
 R0
-w1766918750
+w1770058174
 8rtl/aes_top.v
 Frtl/aes_top.v
-!i122 1
-R8
+!i122 30
+L0 9 79
 R4
 r1
 !s85 0
 31
 R5
-R9
 R6
-!i113 1
 R7
+!i113 1
+R8
 vkey_expansion
 R1
 !i10b 1
-!s100 92G;nbKWMhNRIkiGzUR]82
+!s100 0C_3=BTiiVWmV7kDGFZb?3
 R2
-I3QHBhRnCJf4:E;8<QE0TQ1
+IWBe;?l9GF:nAjg2:aUNER2
 R3
 R0
-w1766920066
+w1770058431
 8rtl/key_expansion.v
 Frtl/key_expansion.v
-!i122 1
-R10
+!i122 30
+L0 1 102
 R4
 r1
 !s85 0
 31
 R5
-R9
 R6
-!i113 1
 R7
+!i113 1
+R8
 vmixcolumns
 R1
 !i10b 1
-!s100 C9SH_7jWzdDk@I2=20?fE0
+!s100 B_IW6EmDO]C:9^8KY9lP=2
 R2
-I`7DiATQYR5Q@SYgLDYdKC0
+Imf1B7Z>R>`JF]`5NhI;B80
 R3
 R0
-w1766919651
+w1767299048
 8rtl/mixcolumns.v
 Frtl/mixcolumns.v
-!i122 1
-Z11 L0 1 5
+!i122 30
+L0 1 34
 R4
 r1
 !s85 0
 31
 R5
-R9
 R6
-!i113 1
 R7
+!i113 1
+R8
 vshiftrows
 R1
 !i10b 1
-!s100 BHaF8U:US]7Vc<1U<G8VB3
+!s100 ?oWNgVd`d2ck:G=oWEN[;0
 R2
-I5d7PEKQm6gJ0dXjQFa6R01
+I?m?D8W1Sf:@fDBAngD3kT1
 R3
 R0
-w1766919508
+w1767113594
 8rtl/shiftrows.v
 Frtl/shiftrows.v
-!i122 1
-R11
+!i122 30
+L0 1 26
 R4
 r1
 !s85 0
 31
 R5
-R9
 R6
-!i113 1
 R7
+!i113 1
+R8
 vstate_reg
 R1
 !i10b 1
-!s100 0OFUbemSGG0@nVWiP;QoF0
+!s100 [cPI96V?NkULA>KoL8VGO1
 R2
-I]ZZ2L46[LbbUbz_nTzni^3
+Ic1I1^bPYM2Ba47lB=MK`^2
 R3
 R0
-w1766919358
+w1770055403
 8rtl/state_reg.v
 Frtl/state_reg.v
-!i122 1
-L0 1 8
+!i122 30
+L0 8 18
 R4
 r1
 !s85 0
 31
 R5
-R9
 R6
-!i113 1
 R7
+!i113 1
+R8
 vsubbytes
 R1
 !i10b 1
-!s100 o:[1zR7?[SISI3Xh7MGnB0
+!s100 ^2hddNU40UCRkiUgI]ee@3
 R2
-IjG`hFU=mU:dRK1C_>@9iZ3
+IG<JZYR^34Jli4J64MFO@n3
 R3
 R0
-w1766919443
-8rtl/subbytes.v
-Frtl/subbytes.v
-!i122 1
+R9
+R10
 R11
+!i122 30
+L0 158 23
 R4
 r1
 !s85 0
 31
 R5
-R9
 R6
-!i113 1
 R7
+!i113 1
+R8
+vtb_aes_top
+R1
+!i10b 1
+!s100 ATWoo;SzQjWVImmQ<@_9R0
+R2
+Imhn4YYm]o0`@aS=ZW3PY@0
+R3
+R0
+w1770055714
+8tb/tb_aes_top.v
+Ftb/tb_aes_top.v
+!i122 31
+L0 3 82
+R4
+r1
+!s85 0
+31
+R5
+!s107 tb/tb_aes_top.v|
+!s90 -reportprogress|300|tb/tb_aes_top.v|
+!i113 1
+R8
