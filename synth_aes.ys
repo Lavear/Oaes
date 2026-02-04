@@ -1,0 +1,24 @@
+# Read the Iterative Design Files
+read_verilog rtl/aes_top.v
+read_verilog rtl/aes_controller.v
+read_verilog rtl/key_expansion.v
+read_verilog rtl/state_reg.v
+read_verilog rtl/aes_datapath.v
+read_verilog rtl/subbytes.v
+read_verilog rtl/shiftrows.v
+read_verilog rtl/mixcolumns.v
+read_verilog rtl/addroundkey.v
+
+# Define top module
+hierarchy -check -top aes_top
+
+# Run generic synthesis
+proc; opt; fsm; opt; memory; opt
+techmap; opt
+flatten
+
+# Generate Report
+stat
+
+# --- ADD THIS LINE ---
+write_verilog aes_netlist.v
