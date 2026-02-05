@@ -77,7 +77,7 @@ module tb_aes_top;
     // Dump waveform (for debugging/power)
     // ---------------------------------
     initial begin
-        $dumpfile("aes.vcd");
+        $dumpfile("aes_power_activity.vcd");
         $dumpvars(0, tb_aes_top);
     end
 
