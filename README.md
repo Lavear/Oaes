@@ -8,7 +8,7 @@ The primary objective is to implement the standard FIPS-197 AES algorithm and ve
 
 ---
 
-### **📂 Repository Structure & File Description**
+### **📂 File Description**
 
 Here is the breakdown of the key files and folders included in this project:
 
