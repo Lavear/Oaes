@@ -1,0 +1,22 @@
+tb
+
+`include "aes_if.sv"
+`include "aes_assertions.sv"
+`include "aes_pkg.sv"
+`include "tb_top.sv"
+
+
+design 
+
+`include "subbytes.v"
+`include "shiftrows.v"
+`include "mixcolumns.v"
+`include "addroundkey.v"
+`include "state_reg.v"
+`include "key_expansion.v"
+`include "aes_datapath.v"
+`include "aes_controller.v"
+`include "aes_top.v"
+
+
+//EDA Playground
